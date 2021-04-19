@@ -1,81 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="Description" content="Somos una empresa con valores y vocación de servicios" />
+	<meta http-equiv="Content-Language" content="es"/>
+	<meta name="distribution" content="global"/>
+	<meta name="Robots" content="all"/>
+	<meta charset="utf-8">
 	<title>Cleaning Services</title>
 </head>
 <body>
 	<header>
-		<img src="assets/img/logo.jpg">
+		<img src="./assets/img/logo.jpg">
 		<nav>
 			<ul>
 				<li>
-					Inicio
+					<a href="index.html">Inicio</a>
 				</li>
 				<li>
 					Servicios
 					<ul>
-						<li>Servicio 1</li>
-						<li>Servicio 2</li>
-						<li>Servicio 3</li>
+						<li><a href="./servicio.html">Servicio 1</a></li>
+						<li><a href="">Servicio 2</a></li>
+						<li><a href="">Servicio 3</a></li>
+						<li><a href="">Servicio 4</a></li>
+						<li><a href="">Servicio 5</a></li>
 					</ul>
 				</li>
 				<li>
-					Trabajá con nosotros
+					<a href="trabaja_con_nosotros.html">Trabajá con nosotros</a>
 				</li>
 				<li>
-					Contacto
+					<a href="#contacto">Contacto</a>
 				</li>
 			</ul>
 		</nav>
 		<div id="slider" class="slider">
 			<div>
-				<img src="assets/img/sliders/slider1.jpg" width="100%">
+				<img src="./assets/img/sliders/slider1.jpg" width="100%">
 			</div>
 		</div>
 	</header>
-	<content>
+	<content id="contacto">
+		<h1>Contactanos!!!</h1>
 		<form id="form" class="form" method="post" action="">
-			<div>
+			<div class="form-group">
 				<label>Nombre</label>
 				<input type="text" name="nombre" placeholder="Nombre">
 			</div>
-			<div>
+			<div class="form-group">
 				<label>Apellido</label>
 				<input type="text" name="apellido" placeholder="Apellido">
 			</div>
-			<div>
+			<div class="form-group">
 				<label>Dirección</label>
 				<input type="text" name="direccion" placeholder="Dirección">
 			</div>
-			<div>
+			<div class="form-group">
 				<label>Telefono</label>
 				<input type="text" name="telefono" placeholder="Telefono">
 			</div>
-			<div>
+			<div class="form-group">
 				<label>Mensaje</label>
 				<textarea name="mensaje"> Déjenos su mensaje</textarea>
 			</div>
+			<div class="form-group">
+				<input type="checkbox" name="newletter" id="newletter">
+				Desea recibir Newletter?
+			</div>
+			<button type="reset">Limpiar formulario</button>
 			<button type="submit">Enviar</button>
 		</form>
 	</content>
 	<aside>
 		<h3>Nuestros Clientes</h3>
 		<div>
-			<img src="assets/img/publicidades/publicidad1.jpg">
+			<img src="./assets/img/publicidades/publicidad1.jpg">
 			<p>Nuestro <b>cliente</b> con su <a href="#">Link</a></p>
 		</div>
 		<div>
-			<img src="assets/img/publicidades/publicidad2.jpg">
+			<img src="./assets/img/publicidades/publicidad2.jpg">
 			<p>Nuestro <b>cliente</b> con su <a href="#">Link</a></p>
 		</div>
 		<div>
-			<img src="assets/img/publicidades/publicidad3.jpg">
+			<img src="./assets/img/publicidades/publicidad3.jpg">
 			<p>Nuestro <b>cliente</b> con su <a href="#">Link</a></p>
 		</div>
 	</aside>
 	<footer>
 		<div>
-			<img src="assets/img/logo.jpg" width="100">
+			<img src="./assets/img/logo.jpg" width="100">
 			<div>
 				<p>Alvear 234</p>
 				<p>Tel: +5496457812</p>
