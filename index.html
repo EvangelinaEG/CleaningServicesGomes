@@ -7,10 +7,13 @@
 	<meta name="Robots" content="all"/>
 	<meta charset="utf-8">
 	<title>Cleaning Services</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
 </head>
 <body>
 	<header>
-		<img src="./assets/img/logo.jpg">
+		<img src="./assets/img/logo.jpg" alt="logo">
 		<nav>
 			<ul>
 				<li>
@@ -20,7 +23,7 @@
 					<a href="./empresa.html">Quienes Somos</a>
 				</li>
 				<li>
-					Servicios
+					<a href="#">Servicios</a>
 					<ul>
 						<li><a href="./servicio.html">Servicio 1</a></li>
 						<li><a href="">Servicio 2</a></li>
@@ -30,10 +33,10 @@
 					</ul>
 				</li>
 				<li>
-					<a href="./trabaja_con_nosotros.html">Trabajá con nosotros</a>
+					<a href="./trabajaConNosotros.html">Trabajá con nosotros</a>
 				</li>
 				<li>
-					<a href="./metodologia_trabajo.html">Metodología de Trabajo</a>
+					<a href="./metodologiaTrabajo.html">Metodología de Trabajo</a>
 				</li>
 				<li>
 					<a href="#contacto">Contacto</a>
@@ -42,65 +45,65 @@
 		</nav>
 		<div id="slider" class="slider">
 			<div>
-				<img src="./assets/img/sliders/slider1.jpg" width="100%">
+				<img src="./assets/img/sliders/slider1.jpg" width="100%" alt="slider">
 			</div>
 		</div>
 	</header>
-	<content id="contacto">
-		<h1>Contactanos!!!</h1>
-		<form id="form" class="form" method="post" action="">
-			<div class="form-group">
-				<label>Nombre</label>
-				<input type="text" name="nombre" placeholder="Nombre">
-			</div>
-			<div class="form-group">
-				<label>Apellido</label>
-				<input type="text" name="apellido" placeholder="Apellido">
-			</div>
-			<div class="form-group">
-				<label>Dirección</label>
-				<input type="text" name="direccion" placeholder="Dirección">
-			</div>
-			<div class="form-group">
-				<label>Telefono</label>
-				<input type="text" name="telefono" placeholder="Telefono">
-			</div>
-			<div class="form-group">
-				<label>Mensaje</label>
-				<textarea name="mensaje"> Déjenos su mensaje</textarea>
-			</div>
-			<div class="form-group">
-				<input type="checkbox" name="newletter" id="newletter">
-				Desea recibir Newletter?
-			</div>
-			<button type="reset">Limpiar formulario</button>
-			<button type="submit">Enviar</button>
-		</form>
-	</content>
-	<aside>
-		<h3>Nuestros Clientes</h3>
-		<div>
-			<img src="./assets/img/publicidades/publicidad1.jpg">
-			<p>Nuestro <b>cliente</b> con su <a href="#">Link</a></p>
-		</div>
-		<div>
-			<img src="./assets/img/publicidades/publicidad2.jpg">
-			<p>Nuestro <b>cliente</b> con su <a href="#">Link</a></p>
-		</div>
-		<div>
-			<img src="./assets/img/publicidades/publicidad3.jpg">
-			<p>Nuestro <b>cliente</b> con su <a href="#">Link</a></p>
-		</div>
-	</aside>
-	<footer>
-		<div>
-			<img src="./assets/img/logo.jpg" width="100">
+	<div class="content">
+		<section id="contacto">
+			<h1>Contactanos!!!</h1>
+			<form id="form" class="form" method="post" action="">
+				<div class="form-group">
+					<label>Nombre</label>
+					<input type="text" name="nombre" placeholder="Nombre">
+				</div>
+				<div class="form-group">
+					<label>Apellido</label>
+					<input type="text" name="apellido" placeholder="Apellido">
+				</div>
+				<div class="form-group">
+					<label>Dirección</label>
+					<input type="text" name="direccion" placeholder="Dirección">
+				</div>
+				<div class="form-group">
+					<label>Telefono</label>
+					<input type="text" name="telefono" placeholder="Telefono">
+				</div>
+				<div class="form-group">
+					<label>Mensaje</label>
+					<textarea name="mensaje" rows="5" cols="23"> Déjenos su mensaje</textarea>
+				</div>
+				<div class="form-group">
+					<input type="checkbox" name="newletter" id="newletter">
+					Desea recibir Newletter?
+				</div>
+				<button type="reset">Limpiar formulario</button>
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+		<aside>
+			<h3>Nuestros Clientes</h3>
 			<div>
+				<img src="./assets/img/publicidades/publicidad1.jpg" alt="cliente1">
+				<p>Nuestro <b>cliente</b> con su <a href="#">Link</a></p>
+			</div>
+			<div>
+				<img src="./assets/img/publicidades/publicidad2.jpg" alt="cliente2">
+				<p>Nuestro <b>cliente</b> con su <a href="#">Link</a></p>
+			</div>
+			<div>
+				<img src="./assets/img/publicidades/publicidad3.jpg" alt="cliente3">
+				<p>Nuestro <b>cliente</b> con su <a href="#">Link</a></p>
+			</div>
+		</aside>
+	</div>
+	<footer>
+			<img src="./assets/img/logo.jpg" alt="logo">
+			<div class="contenido">
 				<p>Alvear 234</p>
-				<p>Tel: +5496457812</p>
+				<p>Tel: +5496457812</p>	
 			</div>
 			<p>Copyright</p>
-		</div>
 	</footer>
 </body>
 </html>

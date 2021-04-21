@@ -6,10 +6,12 @@
 	<meta name="Robots" content="all"/>
 	<meta charset="utf-8">
 	<title>Trabajá con nosotros - Cleaning Services</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
 </head>
 <body>
 	<header>
-		<img src="./assets/img/logo.jpg">
+		<img src="./assets/img/logo.jpg" alt="logo">
 		<nav>
 			<ul>
 				<li>
@@ -29,10 +31,10 @@
 					</ul>
 				</li>
 				<li>
-					<a href="./trabaja_con_nosotros.html">Trabajá con nosotros</a>
+					<a href="./trabajaConNosotros.html">Trabajá con nosotros</a>
 				</li>
 				<li>
-					<a href="./metodologia_trabajo.html">Metodología de Trabajo</a>
+					<a href="./metodologiaTrabajo.html">Metodología de Trabajo</a>
 				</li>
 				<li>
 					<a href="index.html#contacto">Contacto</a>
@@ -40,8 +42,8 @@
 			</ul>
 		</nav>
 	</header>
-	<content>
-		<h2>¿Qué ofrecemos?</h2>
+	<section>
+		<h1>¿Qué ofrecemos?</h1>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -58,34 +60,38 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
-		<table align="center" border="1" width="100%">
-			<tr>
-				<th>Requisitos</th>
-				<th>Beneficios</th>
-			</tr>
-			<tr>
-				<td>
-					<ol>
-						<li>Requisito 1</li>
-						<li>Requisito 2</li>
-						<li>Requisito 3</li>
-						<li>Requisito 4</li>
-						<li>Requisito 5</li>	
-					</ol>
-				</td>
-				<td>
-					<ul>
-						<li>Beneficio 1</li>
-						<li>Beneficio 2</li>
-						<li>Beneficio 3</li>
-						<li>Beneficio 4</li>
-						<li>Beneficio 5</li>	
-					</ul>
-				</td>
-			</tr>
+		<table align="center">
+			<thead>
+				<tr>
+					<th>Requisitos</th>
+					<th>Beneficios</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<ol>
+							<li>Requisito 1</li>
+							<li>Requisito 2</li>
+							<li>Requisito 3</li>
+							<li>Requisito 4</li>
+							<li>Requisito 5</li>	
+						</ol>
+					</td>
+					<td>
+						<ul>
+							<li>Beneficio 1</li>
+							<li>Beneficio 2</li>
+							<li>Beneficio 3</li>
+							<li>Beneficio 4</li>
+							<li>Beneficio 5</li>	
+						</ul>
+					</td>
+				</tr>
+			</tbody>
 		</table>
 		<form>
-			<h2>Contratalo!!</h2>
+			<h2>Unite!!</h2>
 			<fieldset>
 				<legend>Datos personales</legend>
 				<div class="form-group">
@@ -113,7 +119,7 @@
 				</div>
 				<div class="form-group">
 					<label for="comentarios">Comentarios</label>
-					<textarea>
+					<textarea rows="5" cols="40">
 						Cuéntenos porque quiere trabajar con nosotros...
 					</textarea>
 				</div>
@@ -121,17 +127,14 @@
 			<button type="reset">Limpiar formulario</button>
 			<button type="submit">Enviar</button>
 		</form>
-	</content>
+	</section>
 	<footer>
-		<div>
-			<img src="./assets/img/logo.jpg" width="100">
-			<div>
-				<p>Alvear 234</p>
-				<p>Tel: +5496457812</p>
-			</div>
-			<p>Copyright</p>
+		<img src="./assets/img/logo.jpg" alt="logo">
+		<div class="contenido">
+			<p>Alvear 234</p>
+			<p>Tel: +5496457812</p>	
 		</div>
+		<p>Copyright</p>
 	</footer>
-	</content>
 </body>
 </html>

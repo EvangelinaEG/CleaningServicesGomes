@@ -1,0 +1,222 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Gothic A1', sans-serif;
+}
+/*HEADER*/
+header{
+	background-color: #fff;
+}
+header img{
+	width: 150px;
+	text-align: left;
+}
+header .slider img{
+	width: 100%;
+}
+/*END HEADER*/
+/*NAVEGATOR*/
+header nav{
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+}
+header nav ul{
+	display: block;
+	list-style-type: none;
+	background-color: rgb(230, 230, 255);
+	padding: 1rem;
+}
+header nav ul li{
+	display: inline;
+	color: rgb(102, 102, 255);
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	position: relative;
+}
+header nav ul li a{
+	text-decoration: none;
+	padding: 0 1rem;
+}
+header nav ul li a:hover{
+	color: rgb(128, 128, 255);
+}
+header nav ul li ul{
+	display: none;
+	background-color: rgb(230, 230, 255);
+	list-style-type: none;
+	margin-left: 200px;
+	position: absolute;
+	top: 100%;
+	width:130px;
+	padding: 1rem 0;
+}
+header nav ul li ul li{
+	display: block;
+	margin: 10px;
+}
+header nav ul li:hover ul {
+	display:block;
+}
+/*END NAVEGATOR*/
+
+/*CONTACTO*/
+#contacto{
+	display: inline-block;
+	width: 70%;
+	color: rgb(128, 128, 255);
+}
+#contacto h1{
+	color: rgb(128, 128, 255);
+	font-size: 2rem;
+	margin: 2rem;
+	text-align: center;
+}
+/*END CONTACTO*/
+/*FORMULARIOS*/
+form{
+	margin: 1rem 18rem;
+	text-align:right;
+	padding: 2rem;
+}
+form .form-group input, #contacto form .form-group textarea{
+	border:1 solid rgb(204, 204, 255);
+	margin: 1rem;
+}
+form .form-group label{
+	color: rgb(128, 128, 255);
+}
+form button{
+	padding: 10px;
+	background-color: rgb(102, 102, 255);
+	color: #fff;
+	border-radius: 5px;
+}
+form select{
+	border:1 solid rgb(204, 204, 255);
+	margin: 1rem;
+}
+form textarea{
+
+}
+form fieldset{
+	border: 1px solid rgb(102, 102, 255);
+}
+/*END FORMULARIO*/
+/*CONTENIDO*/
+.content{
+	display: flex;
+}
+section{
+	background-color: rgb(224, 224, 235);
+	color: #000;
+	font-size: 1rem;
+	padding: 5px;
+	text-align: left;
+	width: 100%;
+	max-width: 100%;
+}
+section h1, h2{
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 2em;
+	color: rgb(128, 128, 255);
+	font-weight: bold;
+	padding: 1rem;
+}
+section ol{
+	padding: 0 5rem;
+}
+section ol li strong{
+	font-family: 'Gothic A1', sans-serif;
+	color: rgb(128, 128, 255);
+}
+section p{
+	padding: 0 5rem;
+}
+section iframe{
+	width: 500px;
+	height: 250px;
+	float: right;
+	padding: 0 3rem;
+}
+section table{
+	align-items: center;
+	width: 50%;
+	text-align: left;
+}
+section table tr th{
+	font-weight: bold;
+	padding: 0 2rem;
+	background-color: rgb(128, 128, 255);
+}
+section table tr td{
+	background-color: rgb(128, 128, 200, 0.6);
+}
+/*END CONTENIDO*/
+/*ASIDE*/
+aside{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 30%;
+}
+aside div{
+	border: 1px solid rgb(128, 128, 200, 0.6);
+	margin: 1rem;
+}
+aside div p{
+	background-color: rgb(128, 128, 200, 0.6);
+	padding: 1rem 0;
+}
+aside h3{
+	color: rgb(128, 128, 255);
+	font-size: 2rem;
+}
+aside img{
+	width: 200px;
+}
+aside p{
+	font-family: 'Gothic A1', sans-serif;
+}
+aside p a{
+	text-decoration: none;
+	color: rgb(128, 128, 255);
+}
+aside p a:hover{
+	color: rgb(204, 204, 255);
+}
+/*END ASIDE*/
+/*FOOTER*/
+footer{
+	background-color: rgb(179, 179, 255);
+	width: 100%;
+
+	display: flex;
+	text-align: center;
+}
+footer .contenido {
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+}
+footer > p{
+	margin: 10px 30px;
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	padding-right: 60px;
+}
+footer img{
+ width: 100px;
+}
+
+/*END FOOTER*/
